@@ -1,0 +1,52 @@
+  /*****CITA EN LATIN*****/
+  @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+  /*****CITA EN ESPAÑOL*****/
+  @import url('https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap');
+
+  p.citalatin {
+    margin: 0;
+    font-family: "Lobster", sans-serif;
+    font-size: 2.5rem;
+  }
+  
+  p.citaespanol {
+    margin: 0 0 3rem;
+    color: white;
+    font-family: "Just Another Hand", sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+  }
+
+  /*****ESTILO TÍTULO*****/
+
+  @font-face {
+    font-family: "RibeyeMarrow";
+    src: url(fonts/RibeyeMarrow-Regular.ttf);
+  }
+
+  /*****WEB GENERAL*****/
+
+  body {
+    background-color: hsl(45, 55%, 55%);
+  }
+  
+  h1 {
+    font-family: "RibeyeMarrow", cursive;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p.parrafo1 {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: sans-serif;
+    line-height: 200%;
+    text-align: justify;
+  }
+  
+  subrayar {
+    text-decoration: underline;
+  }
